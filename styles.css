@@ -1,0 +1,15 @@
+#accordion .body {
+  display: none;
+  padding: 10px;
+}
+
+#accordion .active .body {
+  display: block;
+}
+
+#accordion .panel {
+  border: solid 1px #d6d6d6;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 2px;
+}
