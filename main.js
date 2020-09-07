@@ -12,6 +12,6 @@ document
   .querySelectorAll(".panel")
   .forEach(function registerPanelClickListener(panel) {
     panel.addEventListener("click", function togglePanelActive() {
-      panel.classList.toggle("active") // This is a callback function because it doesn't get run right now. It runs whenever there is a click on "panel"
+      panel.classList.toggle("active") // This is a callback function because it doesn't run right now. It runs whenever there is a click on "panel"
     })
   })

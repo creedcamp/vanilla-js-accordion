@@ -1,15 +1,37 @@
-#accordion .body {
-  display: none;
-  padding: 10px;
+.body {
+  height: 0;
+  margin: 0;
+  transition-property: height;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+.active .body {
+  height: 200px;
 }
 
-#accordion .active .body {
-  display: block;
+p {
+  padding-left: 1%;
 }
 
-#accordion .panel {
-  border: solid 1px #d6d6d6;
-  margin: 5px;
-  padding: 5px;
+#accordion {
+  border: 2px solid rgb(22, 174, 191);
+  margin: 0 15% 0 15%;
+}
+
+.panel {
   border-radius: 2px;
+  font-family: sans-serif;
+}
+
+.header {
+  font-size: 35px;
+  color: white;
+  background-color: rgb(26, 201, 220);
+  padding: 1%;
+  border-bottom: 2px solid rgb(22, 174, 191);
+  cursor: pointer;
+}
+
+.header:hover {
+  background: rgb(28, 211, 231);
 }
