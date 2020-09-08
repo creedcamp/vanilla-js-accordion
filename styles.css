@@ -5,6 +5,7 @@
   transition-duration: 0.3s;
   overflow: hidden;
 }
+
 .active .body {
   height: 200px;
 }
